@@ -1,0 +1,657 @@
+/* ----------------------------------------------------------------
+The styles for the header section below are used to
+type out the header styles for the section header
+---------------------------------------------------------------- */
+
+.header-section {
+  /* Set the background color to a gradient */
+  background: linear-gradient(to right, #333, #666);
+  
+  /* Center the text horizontally and vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  /* Set the font size and color */
+  font-size: 2em;
+  color: #fff;
+}
+
+/* ----------------------------------------------------------------
+The styles for the main section below are used to
+style the main section of the page
+---------------------------------------------------------------- */
+
+.main-section {
+  /* Set the background color to a gradient */
+  background: linear-gradient(to right, #999, #ccc);
+  
+  /* Center the text horizontally and vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  /* Set the font size and color */
+  font-size: 2em;
+  color: #333;
+}
+
+/* ----------------------------------------------------------------
+The styles for the footer section below are used to
+style the footer section of the page
+---------------------------------------------------------------- */
+
+.footer-section {
+  /* Set the background color to a gradient */
+  background: linear-gradient(to right, #666, #333);
+  
+  /* Center the text horizontally and vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  /* Set the font size and color */
+  font-size: 2em;
+  color: #fff;
+}
+
+/* ----------------------------------------------------------------
+The styles for the button section below are used to
+style the button section of the page
+---------------------------------------------------------------- */
+
+.button-section {
+  /* Set the background color to a gradient */
+  background: linear-gradient(to right, #333, #666);
+  
+  /* Center the text horizontally and vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  /* Set the font size and color */
+  font-size: 2em;
+  color: #fff;
+}
+
+/* ----------------------------------------------------------------
+The styles for the button below are used to
+style the button in the button section of the page
+---------------------------------------------------------------- */
+
+.button {
+  /* Set the background color to a gradient */
+  background: linear-gradient(to right, #999, #ccc);
+  
+  /* Set the padding and border radius */
+  padding: 10px 20px;
+  border-radius: 5px;
+  
+  /* Set the font size and color */
+  font-size: 1em;
+  color: #333;
+  
+  /* Add hover effect */
+  &:hover {
+    background: linear-gradient(to right, #ccc, #999);
+  }
+}
+
+
+/* ----------------------------------------------------------------
+The styles for the input field below are used to
+style the input field in the button section of the page
+---------------------------------------------------------------- */
+
+.input-field {
+  /* Set the padding and border radius */
+  padding: 10px;
+  border-radius: 5px;
+  
+  /* Set the font size and color */
+  font-size: 1em;
+  color: #333;
+  
+  /* Add focus effect */
+  &:focus {
+    outline: none;
+  }
+}
+
+
+/* ----------------------------------------------------------------
+The styles for the dropdown menu below are used to
+style the dropdown menu in the button section of the page
+---------------------------------------------------------------- */
+
+.dropdown-menu {
+  /* Set the background color to a gradient */
+  background: linear-gradient(to right, #999, #ccc);
+  
+  /* Set the padding and border radius */
+  padding: 10px;
+  border-radius: 5px;
+  
+  /* Set the font size and color */
+  font-size: 1em;
+  color: #333;
+  
+  /* Add hover effect */
+  &:hover {
+    background: linear-gradient(to right, #ccc, #999);
+  }
+}
+
+/* ----------------------------------------------------------------
+The styles for the dropdown menu items below are used to
+style the dropdown menu items in the button section of the page
+---------------------------------------------------------------- */
+
+.dropdown-menu-item {
+  /* Set the padding and border radius */
+  padding: 10px;
+  border-radius: 5px;
+  
+  /* Set the font size and color */
+  font-size: 1em;
+  color: #333;
+  
+  /* Add hover effect */
+  &:hover {
+    background: linear-gradient(to right, #ccc, #999);
+  }
+}
+
+
+/* ----------------------------------------------------------------
+The styles for the checkbox below are used to
+style the checkbox in the button section of the page
+---------------------------------------------------------------- */
+
+.checkbox {
+    /* Set the padding and border radius */
+    padding: 10px;
+    border-radius: 5px;
+    
+    /* Set the font size and color */
+    font-size: 1em;
+    color: #333;
+    
+    /* Add hover effect */
+    &:hover {
+        background: linear-gradient(to right, #ccc, #999);
+    }
+}
+
+/* ----------------------------------------------------------------
+The styles for the radio button below are used to
+style the radio button in the button section of the page
+---------------------------------------------------------------- */
+
+.radio-button {
+    /* Set the padding and border radius */
+    padding: 10px;
+    border-radius: 5px;
+    
+    /* Set the font size and color */
+    font-size: 1em;
+    color: #333;
+    
+    /* Add hover effect */
+    &:hover {
+        background: linear-gradient(to right, #ccc, #999);
+    }
+}
+
+/* ----------------------------------------------------------------
+The styles for the label below are used to
+style the label in the button section of the page
+---------------------------------------------------------------- */
+
+.label {
+    /* Set the font size and color */
+    font-size: 1em;
+    color: #333;
+}
+
+/* ----------------------------------------------------------------
+The styles for the select field below are used to
+style the select field in the button section of the page
+---------------------------------------------------------------- */
+
+.select-field {
+    /* Set the padding and border radius */
+    padding: 10px;
+    border-radius: 5px;
+    
+    /* Set the font size and color */
+    font-size: 1em;
+    color: #333;
+    
+    /* Add hover effect */
+    &:hover {
+        background: linear-gradient(to right, #ccc, #999);
+    }
+}
+
+/* ----------------------------------------------------------------
+The styles for the option in the select field below are used to
+style the options in the select field in the button section of the page
+---------------------------------------------------------------- */
+
+.select-field option {
+    /* Set the font size and color */
+    font-size: 1em;
+    color: #333;
+}
+
+/* ----------------------------------------------------------------
+The styles for the textarea below are used to
+style the textarea in the button section of the page
+---------------------------------------------------------------- */
+
+.textarea {
+    /* Set the padding and border radius */
+    padding: 10px;
+    border-radius: 5px;
+    
+    /* Set the font size and color */
+    font-size: 1em;
+    color: #333;
+    
+    /* Add hover effect */
+    &:hover {
+        background: linear-gradient(to right, #ccc, #999);
+    }
+}
+
+/* ----------------------------------------------------------------
+The styles for the progress bar below are used to
+style the progress bar in the button section of the page
+---------------------------------------------------------------- */
+
+.progress-bar {
+    /* Set the background color */
+    background-color: #ccc;
+    
+    /* Set the border radius */
+    border-radius: 5px;
+    
+    /* Add some padding and margin */
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+/* ----------------------------------------------------------------
+The styles for the progress bar filler below are used to
+style the filler part of the progress bar in the button section of the page
+---------------------------------------------------------------- */
+
+.progress-bar-filler {
+    /* Set the background color */
+    background-color: #333;
+    
+    /* Set the border radius */
+    border-radius: 5px;
+    
+    /* Set the width and height */
+    width: 0;
+    height: 100%;
+    
+    /* Animation to make the progress bar fill */
+    transition: width 2s ease-in-out;
+}
+
+/* ----------------------------------------------------------------
+The styles for the tooltip below are used to
+style the tooltip in the button section of the page
+---------------------------------------------------------------- */
+
+.tooltip {
+    /* Set the background color */
+    background-color: #333;
+    
+    /* Set the border radius */
+    border-radius: 5px;
+    
+    /* Set the padding */
+    padding: 10px;
+    
+    /* Set the font size and color */
+    font-size: 1em;
+    color: #fff;
+    
+    /* Set the position and display */
+    position: absolute;
+    display: none;
+    
+    /* Add a border */
+    border: 1px solid #fff;
+}
+
+/* ----------------------------------------------------------------
+The styles for the tooltip arrow below are used to
+style the tooltip arrow in the button section of the page
+---------------------------------------------------------------- */
+
+.tooltip::after {
+    /* Set the content of the tooltip arrow */
+    content: "";
+    
+    /* Set the position of the tooltip arrow */
+    position: absolute;
+    
+    /* Set the background color of the tooltip arrow */
+    background-color: #333;
+    
+    /* Set the border radius of the tooltip arrow */
+    border-radius: 50%;
+    
+    /* Set the width and height of the tooltip arrow */
+    width: 10px;
+    height: 10px;
+    
+    /* Set the position of the tooltip arrow relative to the tooltip */
+    top: -5px;
+    left: 50%;
+    margin-left: -5px;
+    
+    /* Add a transform to rotate the tooltip arrow */
+    transform: rotate(45deg);
+}
+
+
+/* ----------------------------------------------------------------
+The styles for the responsive design below are used to
+make the button section of the page responsive
+---------------------------------------------------------------- */
+
+@media screen and (max-width: 600px) {
+ .button,
+ .input-field,
+ .dropdown-menu,
+ .dropdown-menu-item,
+ .checkbox,
+ .radio-button,
+ .label,
+ .select-field,
+ .select-field option,
+ .textarea,
+ .progress-bar,
+ .progress-bar-filler,
+ .tooltip {
+    width: 100%;
+  }
+}
+
+
+
+/* ----------------------------------------------------------------
+The styles for the button section below are used to
+style the button section of the page
+---------------------------------------------------------------- */
+
+.button-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.button-section button {
+  margin-top: 10px;
+}
+
+
+/* ----------------------------------------------------------------
+The styles for the form section below are used to
+style the form section of the page
+---------------------------------------------------------------- */
+
+.form-section {
+  width: 300px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+.form-section label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-section input,
+.form-section select,
+.form-section textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+
+.form-section button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.form-section button:hover {
+    background-color: #666;
+}
+
+.form-section.error {
+    color: red;
+    margin-top: 5px;
+}
+
+
+/* ----------------------------------------------------------------
+The styles for the success message below are used to
+style the success message in the form section of the page
+---------------------------------------------------------------- */
+
+.form-section.success-message {
+    color: green;
+    margin-top: 5px;
+}
+
+
+/* ----------------------------------------------------------------
+The styles for the error message below are used to
+style the error message in the form section of the page
+---------------------------------------------------------------- */
+
+.form-section.error-message {
+    color: red;
+    margin-top: 5px;
+}
+
+
+
+/* ----------------------------------------------------------------
+The styles for the dropdown menu below are used to
+style the dropdown menu in the form section of the page
+---------------------------------------------------------------- */
+
+.form-section.dropdown-menu {
+    position: relative;
+    display: inline-block;
+}
+
+.form-section.dropdown-menu-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.form-section.dropdown-menu:hover.dropdown-menu-content {
+    display: block;
+}
+
+.form-section.dropdown-menu-item {
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.form-section.dropdown-menu-item:hover {
+    background-color: #f1f1f1;
+}
+
+
+/* ----------------------------------------------------------------
+The styles for the checkbox below are used to
+style the checkbox in the form section of the page
+---------------------------------------------------------------- */
+
+.form-section.checkbox {
+    display: inline-block;
+}
+
+.form-section.checkbox input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+
+/* ----------------------------------------------------------------
+The styles for the radio button below are used to
+style the radio button in the form section of the page
+---------------------------------------------------------------- */
+
+.form-section.radio-button {
+    display: inline-block;
+}
+
+.form-section.radio-button input[type="radio"] {
+    margin-right: 10px;
+}
+
+.form-section.radio-button label {
+    margin-bottom: 5px;
+}
+
+
+/* ----------------------------------------------------------------
+The styles for the label below are used to
+style the label in the form section of the page
+---------------------------------------------------------------- */
+
+.form-section.label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+/* ----------------------------------------------------------------
+The styles for the select field below are used to
+style the select field in the form section of the page
+---------------------------------------------------------------- */
+
+.form-section.select-field {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+
+.form-section.select-field option {
+    font-size: 1em;
+    color: #333;
+}
+
+
+/* ----------------------------------------------------------------
+The styles for the textarea below are used to
+style the textarea in the form section of the page
+---------------------------------------------------------------- */
+
+.form-section.textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    resize: vertical;
+}
+
+
+/* ----------------------------------------------------------------
+The styles for the progress bar below are used to
+style the progress bar in the form section of the page
+---------------------------------------------------------------- */
+
+.form-section.progress-bar {
+    /* Set the background color */
+    background-color: #ccc;
+    
+    /* Set the border radius */
+    border-radius: 5px;
+    
+    /* Add some padding and margin */
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+/* ----------------------------------------------------------------
+The styles for the progress bar filler below are used to
+style the filler part of the progress bar in the form section of the page
+---------------------------------------------------------------- */
+
+.form-section.progress-bar-filler {
+    /* Set the background color */
+    background-color: #333;
+    
+    /* Set the border radius */
+    border-radius: 5px;
+    
+    /* Set the width and height */
+    width: 0;
+    height: 100%;
+    
+    /* Animation to make the progress bar fill */
+    transition: width 2s ease-in-out;
+}
+
+
+/* ----------------------------------------------------------------
+The styles for the tooltip below are used to
+style the tooltip in the form section of the page
+---------------------------------------------------------------- */
+
+.form-section.tooltip {
+    position: relative;
+    display: inline-block;
+}
+
+.form-section.tooltip.tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -60px;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.form-section.tooltip:hover.tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}
+
+
